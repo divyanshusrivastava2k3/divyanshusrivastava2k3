@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420">
+  <defs>
+    <linearGradient id="nightSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080911"/>
+      <stop offset="60%" stop-color="#0f121d"/>
+      <stop offset="100%" stop-color="#161c2c"/>
+    </linearGradient>
+
+    <linearGradient id="towerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00FFFF"/>
+      <stop offset="30%" stop-color="#0077B6"/>
+      <stop offset="100%" stop-color="#121824"/>
+    </linearGradient>
+
+    <linearGradient id="towerOrange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF9900"/>
+      <stop offset="40%" stop-color="#FF5500"/>
+      <stop offset="100%" stop-color="#1a1118"/>
+    </linearGradient>
+
+    <filter id="cityGlow">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono-f {
+        font-family: 'SF Pro Display', 'Fira Code', 'JetBrains Mono', 'Segoe UI', monospace;
+      }
+      .head-f {
+        font-family: 'Impact', 'Montserrat', 'Arial Black', sans-serif;
+        font-weight: 800;
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 0.95; }
+      }
+      .pulsing-city {
+        animation: pulseGlow 3s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Night Sky Backdrop -->
+  <rect width="1280" height="420" rx="16" fill="url(#nightSky)"/>
+  <rect x="2" y="2" width="1276" height="416" rx="15" fill="none" stroke="#252d42" stroke-width="1.2"/>
+
+  <!-- Moon / Rasengan in the Sky -->
+  <g transform="translate(1080, 80)">
+    <circle cx="0" cy="0" r="45" fill="#ffedd5" opacity="0.85" filter="url(#cityGlow)"/>
+    <circle cx="0" cy="0" r="58" fill="none" stroke="#FF7700" stroke-width="1.5" opacity="0.4"/>
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#00E5FF" stroke-width="1" opacity="0.3"/>
+  </g>
+
+  <!-- Stars -->
+  <g fill="#FFFFFF" opacity="0.6">
+    <circle cx="120" cy="50" r="1.5"/><circle cx="280" cy="85" r="1.2"/><circle cx="450" cy="40" r="1.8"/>
+    <circle cx="620" cy="90" r="1.2"/><circle cx="780" cy="55" r="1.5"/><circle cx="920" cy="110" r="1.2"/>
+    <circle cx="210" cy="120" r="1.2"/><circle cx="530" cy="130" r="1.5"/><circle cx="850" cy="70" r="1.5"/>
+  </g>
+
+  <!-- Mountain Silhouettes (Hokage Rock Background) -->
+  <path d="M0,280 L180,210 L340,240 L520,180 L700,230 L880,170 L1060,220 L1280,190 L1280,420 L0,420 Z" fill="#0d111b" opacity="0.7"/>
+
+  <!-- City Skyline Isometric Contribution Towers -->
+  <g class="pulsing-city">
+    <!-- Blue Towers -->
+    <rect x="80" y="260" width="32" height="120" rx="4" fill="url(#towerGrad)" opacity="0.9"/>
+    <rect x="130" y="220" width="32" height="160" rx="4" fill="url(#towerGrad)" opacity="0.9"/>
+    <rect x="180" y="190" width="36" height="190" rx="4" fill="url(#towerGrad)" opacity="0.95"/>
+    <rect x="235" y="240" width="32" height="140" rx="4" fill="url(#towerGrad)" opacity="0.9"/>
+
+    <!-- Orange / Kurama Towers -->
+    <rect x="285" y="160" width="40" height="220" rx="4" fill="url(#towerOrange)" opacity="0.95"/>
+    <rect x="345" y="210" width="34" height="170" rx="4" fill="url(#towerOrange)" opacity="0.9"/>
+    <rect x="400" y="270" width="32" height="110" rx="4" fill="url(#towerOrange)" opacity="0.85"/>
+
+    <!-- Middle District -->
+    <rect x="450" y="180" width="38" height="200" rx="4" fill="url(#towerGrad)" opacity="0.9"/>
+    <rect x="510" y="140" width="44" height="240" rx="4" fill="url(#towerOrange)" opacity="0.98"/>
+    <rect x="575" y="200" width="36" height="180" rx="4" fill="url(#towerGrad)" opacity="0.9"/>
+    <rect x="630" y="230" width="34" height="150" rx="4" fill="url(#towerGrad)" opacity="0.9"/>
+
+    <!-- Tower Tops Lights -->
+    <circle cx="532" cy="138" r="4" fill="#FFCC00" filter="url(#cityGlow)"/>
+    <circle cx="198" cy="188" r="3.5" fill="#00FFFF" filter="url(#cityGlow)"/>
+    <circle cx="305" cy="158" r="4" fill="#FF7700" filter="url(#cityGlow)"/>
+
+    <!-- East District -->
+    <rect x="685" y="170" width="40" height="210" rx="4" fill="url(#towerOrange)" opacity="0.95"/>
+    <rect x="745" y="240" width="34" height="140" rx="4" fill="url(#towerGrad)" opacity="0.9"/>
+    <rect x="800" y="195" width="36" height="185" rx="4" fill="url(#towerOrange)" opacity="0.9"/>
+    <rect x="855" y="250" width="32" height="130" rx="4" fill="url(#towerGrad)" opacity="0.85"/>
+    <rect x="905" y="160" width="42" height="220" rx="4" fill="url(#towerGrad)" opacity="0.95"/>
+    <rect x="965" y="220" width="36" height="160" rx="4" fill="url(#towerOrange)" opacity="0.9"/>
+    <rect x="1020" y="280" width="34" height="100" rx="4" fill="url(#towerGrad)" opacity="0.85"/>
+    <rect x="1075" y="200" width="38" height="180" rx="4" fill="url(#towerGrad)" opacity="0.9"/>
+    <rect x="1135" y="250" width="32" height="130" rx="4" fill="url(#towerOrange)" opacity="0.85"/>
+  </g>
+
+  <!-- Reflection / Ground Grid -->
+  <line x1="60" y1="380" x2="1220" y2="380" stroke="#00E5FF" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Info Overlay Banner -->
+  <g transform="translate(60, 48)">
+    <rect width="460" height="58" rx="10" fill="#0c101c" fill-opacity="0.85" stroke="#FF7700" stroke-width="1.2"/>
+    <text x="18" y="24" class="mono-f" font-size="11" font-weight="800" fill="#FF7700" letter-spacing="1.5">
+      KONOHAGAKURE 3D CONTRIBUTION TOWERS
+    </text>
+    <text x="18" y="44" class="mono-f" font-size="12" fill="#E2E8F0">
+      ⚡ Auto-synthesizing daily commits via GitHub Action
+    </text>
+  </g>
+</svg>

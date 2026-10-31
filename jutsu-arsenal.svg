@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 470" width="1280" height="470">
+  <defs>
+    <linearGradient id="arsenalBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08090f"/>
+      <stop offset="100%" stop-color="#12141f"/>
+    </linearGradient>
+
+    <linearGradient id="chipOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#24130d"/>
+      <stop offset="100%" stop-color="#190e0b"/>
+    </linearGradient>
+
+    <linearGradient id="chipCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0b1d26"/>
+      <stop offset="100%" stop-color="#09141c"/>
+    </linearGradient>
+
+    <linearGradient id="chipGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#251c0d"/>
+      <stop offset="100%" stop-color="#1a1409"/>
+    </linearGradient>
+
+    <linearGradient id="chipPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e1124"/>
+      <stop offset="100%" stop-color="#150a1a"/>
+    </linearGradient>
+
+    <style>
+      .mono-txt {
+        font-family: 'SF Pro Display', 'Fira Code', 'JetBrains Mono', 'Segoe UI', monospace;
+      }
+      .head-txt {
+        font-family: 'Impact', 'Montserrat', 'Arial Black', sans-serif;
+        font-weight: 800;
+        letter-spacing: 0.8px;
+      }
+    </style>
+  </defs>
+
+  <!-- Panel Base -->
+  <rect width="1280" height="470" rx="18" fill="url(#arsenalBg)"/>
+  <rect x="2" y="2" width="1276" height="466" rx="17" fill="none" stroke="#252d42" stroke-width="1.2"/>
+
+  <!-- Section Header -->
+  <g transform="translate(60, 42)">
+    <text x="0" y="0" class="mono-txt" font-size="12" font-weight="700" fill="#FF7700" letter-spacing="2.5">
+      // SHINOBI ARSENAL • EQUIPPED TECH WEAPONS
+    </text>
+    <text x="0" y="32" class="head-txt" font-size="28" fill="#F1F5F9">
+      Jutsu Arsenal &amp; Tech Disciplines (忍術一覧)
+    </text>
+    <text x="800" y="30" class="mono-txt" font-size="12.5" fill="#94A3B8">
+      Categorized by Shinobi Combat Mastery
+    </text>
+  </g>
+
+  <!-- ==================== ROW 1: KEKKEI GENKAI (AI / ML / DATA) ==================== -->
+  <g transform="translate(60, 105)">
+    <!-- Category Label -->
+    <rect x="0" y="0" width="220" height="66" rx="10" fill="#20110d" stroke="#FF5500" stroke-width="1.2"/>
+    <text x="18" y="26" class="head-txt" font-size="14" fill="#FF7700">KEKKEI GENKAI</text>
+    <text x="18" y="48" class="mono-txt" font-size="11" fill="#cbd5e1">AI, ML &amp; NLP Systems</text>
+
+    <!-- Chips -->
+    <g transform="translate(235, 0)">
+      <!-- Python -->
+      <g transform="translate(0, 0)">
+        <rect width="110" height="66" rx="10" fill="url(#chipOrange)" stroke="#FF5500" stroke-width="1"/>
+        <text x="55" y="38" class="mono-txt" font-size="13" font-weight="700" fill="#FF9933" text-anchor="middle">Python</text>
+        <circle cx="20" cy="18" r="3.5" fill="#FF7700"/>
+      </g>
+      <!-- Hugging Face -->
+      <g transform="translate(122, 0)">
+        <rect width="145" height="66" rx="10" fill="url(#chipOrange)" stroke="#FF5500" stroke-width="1"/>
+        <text x="72" y="38" class="mono-txt" font-size="12.5" font-weight="700" fill="#FF9933" text-anchor="middle">Hugging Face</text>
+        <circle cx="20" cy="18" r="3.5" fill="#FF7700"/>
+      </g>
+      <!-- RoBERTa -->
+      <g transform="translate(279, 0)">
+        <rect width="125" height="66" rx="10" fill="url(#chipOrange)" stroke="#FF5500" stroke-width="1"/>
+        <text x="62" y="38" class="mono-txt" font-size="13" font-weight="700" fill="#FF9933" text-anchor="middle">RoBERTa</text>
+        <circle cx="20" cy="18" r="3.5" fill="#FF7700"/>
+      </g>
+      <!-- Scikit-Learn -->
+      <g transform="translate(416, 0)">
+        <rect width="140" height="66" rx="10" fill="url(#chipOrange)" stroke="#FF5500" stroke-width="1"/>
+        <text x="70" y="38" class="mono-txt" font-size="12.5" font-weight="700" fill="#FF9933" text-anchor="middle">Scikit-Learn</text>
+        <circle cx="20" cy="18" r="3.5" fill="#FF7700"/>
+      </g>
+      <!-- TF-IDF & NLP -->
+      <g transform="translate(568, 0)">
+        <rect width="145" height="66" rx="10" fill="url(#chipOrange)" stroke="#FF5500" stroke-width="1"/>
+        <text x="72" y="38" class="mono-txt" font-size="12.5" font-weight="700" fill="#FF9933" text-anchor="middle">TF-IDF Vector</text>
+        <circle cx="20" cy="18" r="3.5" fill="#FF7700"/>
+      </g>
+      <!-- PyTorch / Neural -->
+      <g transform="translate(725, 0)">
+        <rect width="195" height="66" rx="10" fill="url(#chipOrange)" stroke="#FF5500" stroke-width="1"/>
+        <text x="97" y="38" class="mono-txt" font-size="12.5" font-weight="700" fill="#FF9933" text-anchor="middle">Cosine Similarity / NLP</text>
+        <circle cx="20" cy="18" r="3.5" fill="#FF7700"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== ROW 2: NINJUTSU (FULL-STACK & APIS) ==================== -->
+  <g transform="translate(60, 185)">
+    <!-- Category Label -->
+    <rect x="0" y="0" width="220" height="66" rx="10" fill="#0c1f2a" stroke="#00E5FF" stroke-width="1.2"/>
+    <text x="18" y="26" class="head-txt" font-size="14" fill="#00E5FF">NINJUTSU</text>
+    <text x="18" y="48" class="mono-txt" font-size="11" fill="#cbd5e1">Full-Stack &amp; Webcraft</text>
+
+    <!-- Chips -->
+    <g transform="translate(235, 0)">
+      <!-- Flask -->
+      <g transform="translate(0, 0)">
+        <rect width="110" height="66" rx="10" fill="url(#chipCyan)" stroke="#00E5FF" stroke-width="1"/>
+        <text x="55" y="38" class="mono-txt" font-size="13" font-weight="700" fill="#67E8F9" text-anchor="middle">Flask</text>
+        <circle cx="20" cy="18" r="3.5" fill="#00E5FF"/>
+      </g>
+      <!-- TypeScript -->
+      <g transform="translate(122, 0)">
+        <rect width="135" height="66" rx="10" fill="url(#chipCyan)" stroke="#00E5FF" stroke-width="1"/>
+        <text x="67" y="38" class="mono-txt" font-size="13" font-weight="700" fill="#67E8F9" text-anchor="middle">TypeScript</text>
+        <circle cx="20" cy="18" r="3.5" fill="#00E5FF"/>
+      </g>
+      <!-- JavaScript -->
+      <g transform="translate(269, 0)">
+        <rect width="130" height="66" rx="10" fill="url(#chipCyan)" stroke="#00E5FF" stroke-width="1"/>
+        <text x="65" y="38" class="mono-txt" font-size="13" font-weight="700" fill="#67E8F9" text-anchor="middle">JavaScript</text>
+        <circle cx="20" cy="18" r="3.5" fill="#00E5FF"/>
+      </g>
+      <!-- Tailwind & CSS -->
+      <g transform="translate(411, 0)">
+        <rect width="145" height="66" rx="10" fill="url(#chipCyan)" stroke="#00E5FF" stroke-width="1"/>
+        <text x="72" y="38" class="mono-txt" font-size="12.5" font-weight="700" fill="#67E8F9" text-anchor="middle">TailwindCSS</text>
+        <circle cx="20" cy="18" r="3.5" fill="#00E5FF"/>
+      </g>
+      <!-- RESTful APIs -->
+      <g transform="translate(568, 0)">
+        <rect width="145" height="66" rx="10" fill="url(#chipCyan)" stroke="#00E5FF" stroke-width="1"/>
+        <text x="72" y="38" class="mono-txt" font-size="12.5" font-weight="700" fill="#67E8F9" text-anchor="middle">RESTful APIs</text>
+        <circle cx="20" cy="18" r="3.5" fill="#00E5FF"/>
+      </g>
+      <!-- WebSockets -->
+      <g transform="translate(725, 0)">
+        <rect width="195" height="66" rx="10" fill="url(#chipCyan)" stroke="#00E5FF" stroke-width="1"/>
+        <text x="97" y="38" class="mono-txt" font-size="12.5" font-weight="700" fill="#67E8F9" text-anchor="middle">Realtime WebSockets</text>
+        <circle cx="20" cy="18" r="3.5" fill="#00E5FF"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== ROW 3: FŪINJUTSU (SECURITY & DATA) ==================== -->
+  <g transform="translate(60, 265)">
+    <!-- Category Label -->
+    <rect x="0" y="0" width="220" height="66" rx="10" fill="#261b0c" stroke="#FFB800" stroke-width="1.2"/>
+    <text x="18" y="26" class="head-txt" font-size="14" fill="#FFB800">FŪINJUTSU</text>
+    <text x="18" y="48" class="mono-txt" font-size="11" fill="#cbd5e1">Security &amp; Persistence</text>
+
+    <!-- Chips -->
+    <g transform="translate(235, 0)">
+      <!-- PyJWT -->
+      <g transform="translate(0, 0)">
+        <rect width="110" height="66" rx="10" fill="url(#chipGold)" stroke="#FFB800" stroke-width="1"/>
+        <text x="55" y="38" class="mono-txt" font-size="13" font-weight="700" fill="#FDE047" text-anchor="middle">PyJWT</text>
+        <circle cx="20" cy="18" r="3.5" fill="#FFB800"/>
+      </g>
+      <!-- Bcrypt -->
+      <g transform="translate(122, 0)">
+        <rect width="115" height="66" rx="10" fill="url(#chipGold)" stroke="#FFB800" stroke-width="1"/>
+        <text x="57" y="38" class="mono-txt" font-size="13" font-weight="700" fill="#FDE047" text-anchor="middle">Bcrypt</text>
+        <circle cx="20" cy="18" r="3.5" fill="#FFB800"/>
+      </g>
+      <!-- PostgreSQL -->
+      <g transform="translate(249, 0)">
+        <rect width="150" height="66" rx="10" fill="url(#chipGold)" stroke="#FFB800" stroke-width="1"/>
+        <text x="75" y="38" class="mono-txt" font-size="13" font-weight="700" fill="#FDE047" text-anchor="middle">PostgreSQL</text>
+        <circle cx="20" cy="18" r="3.5" fill="#FFB800"/>
+      </g>
+      <!-- MongoDB -->
+      <g transform="translate(411, 0)">
+        <rect width="145" height="66" rx="10" fill="url(#chipGold)" stroke="#FFB800" stroke-width="1"/>
+        <text x="72" y="38" class="mono-txt" font-size="13" font-weight="700" fill="#FDE047" text-anchor="middle">MongoDB</text>
+        <circle cx="20" cy="18" r="3.5" fill="#FFB800"/>
+      </g>
+      <!-- SQLite -->
+      <g transform="translate(568, 0)">
+        <rect width="125" height="66" rx="10" fill="url(#chipGold)" stroke="#FFB800" stroke-width="1"/>
+        <text x="62" y="38" class="mono-txt" font-size="13" font-weight="700" fill="#FDE047" text-anchor="middle">SQLite</text>
+        <circle cx="20" cy="18" r="3.5" fill="#FFB800"/>
+      </g>
+      <!-- Session Mgmt -->
+      <g transform="translate(705, 0)">
+        <rect width="215" height="66" rx="10" fill="url(#chipGold)" stroke="#FFB800" stroke-width="1"/>
+        <text x="107" y="38" class="mono-txt" font-size="12" font-weight="700" fill="#FDE047" text-anchor="middle">Session Guard &amp; Auth</text>
+        <circle cx="20" cy="18" r="3.5" fill="#FFB800"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== ROW 4: NINJA TOOLS (DEVOPS & WORKFLOW) ==================== -->
+  <g transform="translate(60, 345)">
+    <!-- Category Label -->
+    <rect x="0" y="0" width="220" height="66" rx="10" fill="#1b1224" stroke="#C084FC" stroke-width="1.2"/>
+    <text x="18" y="26" class="head-txt" font-size="14" fill="#C084FC">NINJA TOOLS</text>
+    <text x="18" y="48" class="mono-txt" font-size="11" fill="#cbd5e1">Workflow &amp; Deployment</text>
+
+    <!-- Chips -->
+    <g transform="translate(235, 0)">
+      <!-- Git & GitHub -->
+      <g transform="translate(0, 0)">
+        <rect width="135" height="66" rx="10" fill="url(#chipPurple)" stroke="#C084FC" stroke-width="1"/>
+        <text x="67" y="38" class="mono-txt" font-size="13" font-weight="700" fill="#E9D5FF" text-anchor="middle">Git / GitHub</text>
+        <circle cx="20" cy="18" r="3.5" fill="#C084FC"/>
+      </g>
+      <!-- GitHub Actions -->
+      <g transform="translate(147, 0)">
+        <rect width="165" height="66" rx="10" fill="url(#chipPurple)" stroke="#C084FC" stroke-width="1"/>
+        <text x="82" y="38" class="mono-txt" font-size="12.5" font-weight="700" fill="#E9D5FF" text-anchor="middle">GitHub Actions</text>
+        <circle cx="20" cy="18" r="3.5" fill="#C084FC"/>
+      </g>
+      <!-- Linux / Bash -->
+      <g transform="translate(324, 0)">
+        <rect width="140" height="66" rx="10" fill="url(#chipPurple)" stroke="#C084FC" stroke-width="1"/>
+        <text x="70" y="38" class="mono-txt" font-size="13" font-weight="700" fill="#E9D5FF" text-anchor="middle">Linux / Bash</text>
+        <circle cx="20" cy="18" r="3.5" fill="#C084FC"/>
+      </g>
+      <!-- Vercel Cloud -->
+      <g transform="translate(476, 0)">
+        <rect width="140" height="66" rx="10" fill="url(#chipPurple)" stroke="#C084FC" stroke-width="1"/>
+        <text x="70" y="38" class="mono-txt" font-size="13" font-weight="700" fill="#E9D5FF" text-anchor="middle">Vercel Deploy</text>
+        <circle cx="20" cy="18" r="3.5" fill="#C084FC"/>
+      </g>
+      <!-- Postman API -->
+      <g transform="translate(628, 0)">
+        <rect width="140" height="66" rx="10" fill="url(#chipPurple)" stroke="#C084FC" stroke-width="1"/>
+        <text x="70" y="38" class="mono-txt" font-size="13" font-weight="700" fill="#E9D5FF" text-anchor="middle">Postman API</text>
+        <circle cx="20" cy="18" r="3.5" fill="#C084FC"/>
+      </g>
+      <!-- VS Code Studio -->
+      <g transform="translate(780, 0)">
+        <rect width="140" height="66" rx="10" fill="url(#chipPurple)" stroke="#C084FC" stroke-width="1"/>
+        <text x="70" y="38" class="mono-txt" font-size="13" font-weight="700" fill="#E9D5FF" text-anchor="middle">VS Code</text>
+        <circle cx="20" cy="18" r="3.5" fill="#C084FC"/>
+      </g>
+    </g>
+  </g>
+</svg>

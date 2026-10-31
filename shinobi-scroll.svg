@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 430" width="1280" height="430">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="scrollBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090a10"/>
+      <stop offset="100%" stop-color="#111420"/>
+    </linearGradient>
+
+    <!-- Card 1: Kurama Orange -->
+    <linearGradient id="cardOrange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#241410"/>
+      <stop offset="100%" stop-color="#150f14"/>
+    </linearGradient>
+
+    <!-- Card 2: Rasengan Cyan -->
+    <linearGradient id="cardCyan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f1f28"/>
+      <stop offset="100%" stop-color="#0d141d"/>
+    </linearGradient>
+
+    <!-- Card 3: Sage Purple/Gold -->
+    <linearGradient id="cardGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#221a0f"/>
+      <stop offset="100%" stop-color="#161311"/>
+    </linearGradient>
+
+    <!-- Shimmer Edge Gradients -->
+    <linearGradient id="edgeOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5500"/>
+      <stop offset="100%" stop-color="#FF9900" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="edgeCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FFFF"/>
+      <stop offset="100%" stop-color="#0077B6" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="edgeGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFCC00"/>
+      <stop offset="100%" stop-color="#FF7700" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <filter id="softGlow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .font-mono {
+        font-family: 'SF Pro Display', 'Fira Code', 'JetBrains Mono', 'Segoe UI', monospace;
+      }
+      .font-heading {
+        font-family: 'Impact', 'Montserrat', 'Arial Black', sans-serif;
+        font-weight: 800;
+        letter-spacing: 1px;
+      }
+      .hover-lift {
+        transition: transform 0.3s ease;
+      }
+      @keyframes floatCard {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-5px); }
+      }
+      .card-float-1 { animation: floatCard 4s ease-in-out infinite; }
+      .card-float-2 { animation: floatCard 4s ease-in-out 1.3s infinite; }
+      .card-float-3 { animation: floatCard 4s ease-in-out 2.6s infinite; }
+    </style>
+  </defs>
+
+  <!-- Panel Base -->
+  <rect width="1280" height="430" rx="18" fill="url(#scrollBg)"/>
+  <rect x="2" y="2" width="1276" height="426" rx="17" fill="none" stroke="#252d42" stroke-width="1.2"/>
+
+  <!-- Section Header -->
+  <g transform="translate(60, 48)">
+    <text x="0" y="0" class="font-mono" font-size="12" font-weight="700" fill="#FF7700" letter-spacing="2.5">
+      // NINPOU: THE THREE CHAKRA PILLARS
+    </text>
+    <text x="0" y="32" class="font-heading" font-size="28" fill="#F1F5F9" letter-spacing="0.5">
+      My Engineering Ninja Way (忍道の道)
+    </text>
+    <text x="560" y="30" class="font-mono" font-size="13" fill="#94A3B8">
+      "True strength comes from relentless refinement, bulletproof security &amp; intelligent design."
+    </text>
+  </g>
+
+  <!-- ==================== CARD 1: KURAMA AI / ML ==================== -->
+  <g transform="translate(60, 115)" class="card-float-1">
+    <rect width="365" height="270" rx="16" fill="url(#cardOrange)" stroke="url(#edgeOrange)" stroke-width="1.6"/>
+    
+    <!-- Top Rank Tag -->
+    <g transform="translate(24, 24)">
+      <rect width="90" height="26" rx="6" fill="#38170c" stroke="#FF5500" stroke-width="0.8"/>
+      <text x="45" y="17" class="font-mono" font-size="10.5" font-weight="800" fill="#FF7700" text-anchor="middle">
+        S-RANK JUTSU
+      </text>
+      <!-- Kanji Symbol -->
+      <text x="316" y="22" font-family="sans-serif" font-weight="900" font-size="22" fill="#FF5500" opacity="0.8">九</text>
+    </g>
+
+    <!-- Title -->
+    <g transform="translate(24, 82)">
+      <text x="0" y="0" class="font-heading" font-size="20" fill="#FF9933">
+        KURAMA SENSING
+      </text>
+      <text x="0" y="20" class="font-mono" font-size="12" font-weight="600" fill="#E2E8F0">
+        AI, NLP &amp; Neural Models
+      </text>
+    </g>
+
+    <!-- Description -->
+    <text x="24" y="135" class="font-mono" font-size="12.5" fill="#94A3B8" width="315">
+      <tspan x="24" dy="0">Harnessing Hugging Face RoBERTa,</tspan>
+      <tspan x="24" dy="20">TF-IDF Vectorization, and Scikit-Learn</tspan>
+      <tspan x="24" dy="20">to decode emotions, extract resume</tspan>
+      <tspan x="24" dy="20">intel, and power predictive pipelines.</tspan>
+    </text>
+
+    <!-- Chips / Pills -->
+    <g transform="translate(24, 222)">
+      <rect x="0" y="0" width="85" height="24" rx="4" fill="#20110e" stroke="#FF5500" stroke-width="0.8"/>
+      <text x="42" y="16" class="font-mono" font-size="10.5" fill="#FF9E40" text-anchor="middle">RoBERTa</text>
+
+      <rect x="94" y="0" width="100" height="24" rx="4" fill="#20110e" stroke="#FF5500" stroke-width="0.8"/>
+      <text x="144" y="16" class="font-mono" font-size="10.5" fill="#FF9E40" text-anchor="middle">Scikit-Learn</text>
+
+      <rect x="202" y="0" width="75" height="24" rx="4" fill="#20110e" stroke="#FF5500" stroke-width="0.8"/>
+      <text x="239" y="16" class="font-mono" font-size="10.5" fill="#FF9E40" text-anchor="middle">NLP / TF-IDF</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 2: RASENGAN FULL-STACK ==================== -->
+  <g transform="translate(457, 115)" class="card-float-2">
+    <rect width="365" height="270" rx="16" fill="url(#cardCyan)" stroke="url(#edgeCyan)" stroke-width="1.6"/>
+    
+    <!-- Top Rank Tag -->
+    <g transform="translate(24, 24)">
+      <rect width="90" height="26" rx="6" fill="#0c232e" stroke="#00E5FF" stroke-width="0.8"/>
+      <text x="45" y="17" class="font-mono" font-size="10.5" font-weight="800" fill="#00E5FF" text-anchor="middle">
+        A-RANK JUTSU
+      </text>
+      <!-- Kanji Symbol -->
+      <text x="316" y="22" font-family="sans-serif" font-weight="900" font-size="22" fill="#00E5FF" opacity="0.8">螺旋</text>
+    </g>
+
+    <!-- Title -->
+    <g transform="translate(24, 82)">
+      <text x="0" y="0" class="font-heading" font-size="20" fill="#00E5FF">
+        RASENGAN MATRIX
+      </text>
+      <text x="0" y="20" class="font-mono" font-size="12" font-weight="600" fill="#E2E8F0">
+        Full-Stack &amp; Realtime Engineering
+      </text>
+    </g>
+
+    <!-- Description -->
+    <text x="24" y="135" class="font-mono" font-size="12.5" fill="#94A3B8">
+      <tspan x="24" dy="0">High-velocity web applications built with</tspan>
+      <tspan x="24" dy="20">Flask, TypeScript &amp; modern UI states.</tspan>
+      <tspan x="24" dy="20">Architecting low-latency messaging</tspan>
+      <tspan x="24" dy="20">and dynamic user-facing platforms.</tspan>
+    </text>
+
+    <!-- Chips / Pills -->
+    <g transform="translate(24, 222)">
+      <rect x="0" y="0" width="75" height="24" rx="4" fill="#091b24" stroke="#00E5FF" stroke-width="0.8"/>
+      <text x="37" y="16" class="font-mono" font-size="10.5" fill="#67E8F9" text-anchor="middle">Flask</text>
+
+      <rect x="84" y="0" width="95" height="24" rx="4" fill="#091b24" stroke="#00E5FF" stroke-width="0.8"/>
+      <text x="131" y="16" class="font-mono" font-size="10.5" fill="#67E8F9" text-anchor="middle">TypeScript</text>
+
+      <rect x="188" y="0" width="85" height="24" rx="4" fill="#091b24" stroke="#00E5FF" stroke-width="0.8"/>
+      <text x="230" y="16" class="font-mono" font-size="10.5" fill="#67E8F9" text-anchor="middle">REST APIs</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 3: FŪINJUTSU SECURITY ==================== -->
+  <g transform="translate(855, 115)" class="card-float-3">
+    <rect width="365" height="270" rx="16" fill="url(#cardGold)" stroke="url(#edgeGold)" stroke-width="1.6"/>
+    
+    <!-- Top Rank Tag -->
+    <g transform="translate(24, 24)">
+      <rect width="90" height="26" rx="6" fill="#302310" stroke="#FFB800" stroke-width="0.8"/>
+      <text x="45" y="17" class="font-mono" font-size="10.5" font-weight="800" fill="#FFB800" text-anchor="middle">
+        SEALING JUTSU
+      </text>
+      <!-- Kanji Symbol -->
+      <text x="316" y="22" font-family="sans-serif" font-weight="900" font-size="22" fill="#FFB800" opacity="0.8">封印</text>
+    </g>
+
+    <!-- Title -->
+    <g transform="translate(24, 82)">
+      <text x="0" y="0" class="font-heading" font-size="20" fill="#FFCC00">
+        UZUMAKI BARRIER
+      </text>
+      <text x="0" y="20" class="font-mono" font-size="12" font-weight="600" fill="#E2E8F0">
+        Security, Auth &amp; Data Vaults
+      </text>
+    </g>
+
+    <!-- Description -->
+    <text x="24" y="135" class="font-mono" font-size="12.5" fill="#94A3B8">
+      <tspan x="24" dy="0">Fortifying apps with PyJWT, Bcrypt</tspan>
+      <tspan x="24" dy="20">cryptographic hashing, session control,</tspan>
+      <tspan x="24" dy="20">and rock-solid databases (Postgres,</tspan>
+      <tspan x="24" dy="20">MongoDB) that resist every intrusion.</tspan>
+    </text>
+
+    <!-- Chips / Pills -->
+    <g transform="translate(24, 222)">
+      <rect x="0" y="0" width="75" height="24" rx="4" fill="#20170a" stroke="#FFB800" stroke-width="0.8"/>
+      <text x="37" y="16" class="font-mono" font-size="10.5" fill="#FDE047" text-anchor="middle">PyJWT</text>
+
+      <rect x="84" y="0" width="95" height="24" rx="4" fill="#20170a" stroke="#FFB800" stroke-width="0.8"/>
+      <text x="131" y="16" class="font-mono" font-size="10.5" fill="#FDE047" text-anchor="middle">PostgreSQL</text>
+
+      <rect x="188" y="0" width="85" height="24" rx="4" fill="#20170a" stroke="#FFB800" stroke-width="0.8"/>
+      <text x="230" y="16" class="font-mono" font-size="10.5" fill="#FDE047" text-anchor="middle">MongoDB</text>
+    </g>
+  </g>
+</svg>
