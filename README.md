@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ═══════════════════ ⚡ HERO BANNER ═══════════════════ -->
-<img src="./banner-hero.svg" alt="Divyanshu Srivastava — Full-Stack AI Engineer" width="100%"/>
+<img src="./hero.svg" alt="Divyanshu Srivastava — Full-Stack AI Engineer" width="100%"/>
 
 <br/><br/>
 
@@ -10,17 +10,17 @@
 <br/><br/>
 
 <!-- ═══════════════════ 📜 THE 3 CHAKRA PILLARS ═══════════════════ -->
-<img src="./shinobi-scroll.svg" alt="The Three Chakra Pillars of Software" width="100%"/>
+<img src="./ninja-way.svg" alt="My Ninja Way — Three Pillars" width="100%"/>
 
 <br/><br/>
 
 <!-- ═══════════════════ ⚡ JUTSU ARSENAL (TECH STACK) ═══════════════════ -->
-<img src="./jutsu-arsenal.svg" alt="Jutsu Arsenal &amp; Tech Disciplines" width="100%"/>
+<img src="./jutsu-stack.svg" alt="Jutsu Stack — Disciplines & Technologies" width="100%"/>
 
 <br/><br/>
 
 <!-- ═══════════════════ 🪪 OFFICIAL SHINOBI PASSPORT & STATS ═══════════════════ -->
-<img src="./shinobi-card.svg" alt="Official Konoha Shinobi Registration Card" width="100%"/>
+<img src="./ninja-id.svg" alt="Shinobi Identification Card" width="100%"/>
 
 <br/><br/>
 
@@ -182,7 +182,7 @@
 <br/><br/>
 
 <!-- ═══════════════════ 📜 SUMMONING SCROLL (CONNECT) ═══════════════════ -->
-<img src="./summoning-scroll.svg" alt="Kuchiyose no Jutsu — Summoning Contract" width="100%"/>
+<img src="./connect.svg" alt="Summoning Scroll — Let's Connect" width="100%"/>
 
 <br/>
 
