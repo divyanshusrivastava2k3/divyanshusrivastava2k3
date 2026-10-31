@@ -1,26 +1,22 @@
 <div align="center">
 
-<!-- ═══════════════════ ⚡ HERO BANNER ═══════════════════ -->
-<img src="./hero.svg" alt="Divyanshu Srivastava — Full-Stack AI Engineer" width="100%"/>
+<!-- ═══════════════════ 💀 BLACK HAT MAINFRAME HERO ═══════════════════ -->
+<img src="./hacker-hero.svg" alt="Divyanshu Srivastava — Black Hat Cyber &amp; AI Architect" width="100%"/>
 
 <br/><br/>
 
-<img src="./team7-dance.gif" alt="Team 7 Chibi Dance" width="230"/>
+<!-- ═══════════════════ 📂 CLASSIFIED DOSSIER ═══════════════════ -->
+<img src="./hacker-dossier.svg" alt="Classified Dossier — Core Technical Vectors" width="100%"/>
 
 <br/><br/>
 
-<!-- ═══════════════════ 📜 THE 3 CHAKRA PILLARS ═══════════════════ -->
-<img src="./ninja-way.svg" alt="My Ninja Way — Three Pillars" width="100%"/>
+<!-- ═══════════════════ ⚡ WEAPONIZED ARSENAL (TECH STACK) ═══════════════════ -->
+<img src="./hacker-arsenal.svg" alt="System Arsenal — Operational Exploits, Tools &amp; Protocols" width="100%"/>
 
 <br/><br/>
 
-<!-- ═══════════════════ ⚡ JUTSU ARSENAL (TECH STACK) ═══════════════════ -->
-<img src="./jutsu-stack.svg" alt="Jutsu Stack — Disciplines & Technologies" width="100%"/>
-
-<br/><br/>
-
-<!-- ═══════════════════ 🪪 OFFICIAL SHINOBI PASSPORT & STATS ═══════════════════ -->
-<img src="./ninja-id.svg" alt="Shinobi Identification Card" width="100%"/>
+<!-- ═══════════════════ 🪪 OPERATOR CLEARANCE BADGE ═══════════════════ -->
+<img src="./hacker-badge.svg" alt="Black-Hat Operator Clearance Badge" width="100%"/>
 
 <br/><br/>
 
@@ -28,26 +24,26 @@
 
 ---
 
-### 🍥 S-Rank &amp; A-Rank Missions (Featured Projects)
+### 🛰️ Verified Payload Deployments // Active Repositories
 
 <table>
   <thead>
     <tr>
-      <th align="left">📜 Mission / Project</th>
-      <th align="left">🎯 Mission Intel (What it does)</th>
-      <th align="center">⚡ Jutsu Used</th>
-      <th align="center">🔗 Access</th>
+      <th align="left">🎯 Target / Repository</th>
+      <th align="left">🔍 Intelligence &amp; Technical Capabilities</th>
+      <th align="center">⚡ Technology Stack</th>
+      <th align="center">🔗 Direct Uplink</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <a href="https://github.com/divyanshusrivastava2k3/resume-matcher">
-          <b>🤖 Resume-Job Matcher</b>
+          <b>🤖 resume-matcher</b>
         </a>
       </td>
       <td>
-        <b>AI-Powered Candidate-Job Matching Engine:</b> Leverages TF-IDF vectorization, Cosine Similarity &amp; Skill Gap Analysis to evaluate candidate-role suitability in milliseconds.
+        <b>AI Candidate-Job Alignment &amp; Skill Distance Engine:</b> Leverages high-dimensional TF-IDF vectorization, Cosine Similarity algorithms, and automated skill-gap evaluation to rank candidate fitness against job descriptions in milliseconds.
       </td>
       <td align="center">
         <code>Python</code> <code>Flask</code> <code>Scikit-learn</code> <code>NLP</code>
@@ -59,11 +55,11 @@
     <tr>
       <td>
         <a href="https://github.com/divyanshusrivastava2k3/sentiment-analyzer">
-          <b>🧠 Sentiment Analyzer</b>
+          <b>🧠 sentiment-analyzer</b>
         </a>
       </td>
       <td>
-        <b>Neural Emotion &amp; Sentiment Classifier:</b> Deep learning inference using Hugging Face Transformers (RoBERTa), backed by MongoDB persistence and interactive Chart.js analytics.
+        <b>Neural Emotion &amp; Sentiment Classification Pipeline:</b> Production deep-learning inference driven by Hugging Face Transformers (RoBERTa), backed by MongoDB persistent query storage and interactive Chart.js analytics.
       </td>
       <td align="center">
         <code>RoBERTa</code> <code>Transformers</code> <code>MongoDB</code> <code>Chart.js</code>
@@ -75,11 +71,11 @@
     <tr>
       <td>
         <a href="https://github.com/divyanshusrivastava2k3/secure-auth-system">
-          <b>🛡️ Secure Auth System</b>
+          <b>🛡️ secure-auth-system</b>
         </a>
       </td>
       <td>
-        <b>Production-Grade Authentication Vault:</b> High-security user authentication with PyJWT tokens, Bcrypt password hashing, session guards, and PostgreSQL/SQLite integration.
+        <b>Zero-Trust Identity &amp; Cryptographic Vault:</b> Hardened security pipeline utilizing PyJWT signed token handshakes, salt-hashed Bcrypt credentials, session integrity guards, and secure PostgreSQL/SQLite integration.
       </td>
       <td align="center">
         <code>Python</code> <code>PyJWT</code> <code>Bcrypt</code> <code>PostgreSQL</code>
@@ -91,17 +87,17 @@
     <tr>
       <td>
         <a href="https://github.com/divyanshusrivastava2k3/reelnova">
-          <b>⚡ ReelNova</b>
+          <b>⚡ reelnova</b>
         </a>
       </td>
       <td>
-        <b>Fast Media Downloader Platform:</b> Modern web application engineered for seamless video &amp; media extraction with high responsiveness and custom web architecture.
+        <b>High-Throughput Media Intercept Platform:</b> Modern web architecture designed for rapid extraction and parsing of digital video feeds with high responsiveness and low overhead.
       </td>
       <td align="center">
         <code>TypeScript</code> <code>Next.js</code> <code>Web APIs</code>
       </td>
       <td align="center">
-        <a href="https://www.reelnova.in/"><b>[Live Site]</b></a>
+        <a href="https://www.reelnova.in/"><b>[Live Intercept]</b></a>
       </td>
     </tr>
     <tr>
@@ -111,7 +107,7 @@
         </a>
       </td>
       <td>
-        <b>Low-Latency Messaging Webapp:</b> Realtime telepathic communication portal with instant packet transmission, multi-client synchronization, and sleek UI.
+        <b>Encrypted Realtime Telepathic Socket:</b> Ultra low-latency bidirectional messaging channel with instant packet broadcast, distributed client state synchronization, and sleek dark UI.
       </td>
       <td align="center">
         <code>JavaScript</code> <code>WebSockets</code> <code>Node.js</code>
@@ -123,17 +119,17 @@
     <tr>
       <td>
         <a href="https://github.com/divyanshusrivastava2k3/PORT_folio">
-          <b>🌐 Personal Portfolio</b>
+          <b>🌐 PORT_folio</b>
         </a>
       </td>
       <td>
-        <b>Interactive Shinobi Developer Hub:</b> Modern glassmorphism showcase highlighting production projects, technical prowess, and contact links.
+        <b>Mainframe Developer Showcase:</b> Production glassmorphism terminal highlighting live web engineering projects, technical competencies, and secure comms links.
       </td>
       <td align="center">
         <code>HTML5</code> <code>CSS3</code> <code>Vercel</code>
       </td>
       <td align="center">
-        <a href="https://divyanshu-srivastava-flax.vercel.app"><b>[Live App]</b></a>
+        <a href="https://divyanshu-srivastava-flax.vercel.app"><b>[Live Node]</b></a>
       </td>
     </tr>
   </tbody>
@@ -143,7 +139,7 @@
 
 <div align="center">
   <a href="https://github.com/divyanshusrivastava2k3?tab=repositories">
-    <b>🌀 Explore All Completed Shinobi Missions &amp; Repositories →</b>
+    <b>⚡ [ACCESS_ALL_REPOSITORIES] Inspect Complete Source Code Tree →</b>
   </a>
 </div>
 
@@ -153,68 +149,61 @@
 
 <div align="center">
 
-<!-- ═══════════════════ 📊 LIVE COMBAT & CHAKRA STATS ═══════════════════ -->
-### 📊 Live Chakra &amp; Ninja Activity
+<!-- ═══════════════════ 📊 LIVE TERMINAL TELEMETRY ═══════════════════ -->
+### 📊 Mainframe Telemetry &amp; Commit Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=divyanshusrivastava2k3&show_icons=true&theme=tokyonight&bg_color=08090f&title_color=ff7700&text_color=e2e8f0&icon_color=00e5ff&border_color=ff7700&hide_border=false" alt="Divyanshu GitHub Stats" width="48%"/>
-  <img src="https://streak-stats.demolab.com?user=divyanshusrivastava2k3&theme=tokyonight&background=08090f&ring=ff7700&fire=ff7700&currStreakLabel=00e5ff&border=ff7700" alt="GitHub Streak" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=divyanshusrivastava2k3&show_icons=true&bg_color=04070d&title_color=00ff66&text_color=e2e8f0&icon_color=00e5ff&border_color=00ff66&hide_border=false" alt="Divyanshu GitHub Stats" width="48%"/>
+  <img src="https://streak-stats.demolab.com?user=divyanshusrivastava2k3&background=04070d&ring=00ff66&fire=ff0055&currStreakLabel=00e5ff&border=00ff66&sideLabels=e2e8f0&dates=94a3b8" alt="GitHub Streak" width="48%"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=divyanshusrivastava2k3&layout=compact&theme=tokyonight&bg_color=08090f&title_color=ff7700&text_color=e2e8f0&border_color=ff7700" alt="Top Languages" width="60%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=divyanshusrivastava2k3&layout=compact&bg_color=04070d&title_color=00ff66&text_color=e2e8f0&border_color=00ff66" alt="Top Languages" width="60%"/>
 </p>
 
 <br/>
 
-<!-- ═══════════════════ 🌀 RASENGAN CHARGE ═══════════════════ -->
-<img src="./rasengan-run.gif" alt="Naruto Charging Rasengan" width="160"/>
+<!-- ═══════════════════ 🌃 3D RECONSTRUCTION GRID ═══════════════════ -->
+### 🌃 Commit Reconstruction Grid // Daily Sync
+
+*Automated neural telemetry log generated every 24 hours.*
+
+<img src="./profile-3d-contrib/profile-night-view.svg" alt="3D Mainframe Commit Grid" width="100%"/>
 
 <br/><br/>
 
-<!-- ═══════════════════ 🌃 3D CONTRIBUTION VILLAGE ═══════════════════ -->
-### 🌃 The Hidden Leaf Contribution Village
-
-*Every commit forges another building in Konohagakure — reconstructed automatically every 24 hours.*
-
-<img src="./profile-3d-contrib/profile-night-view.svg" alt="3D Contribution Village" width="100%"/>
-
-<br/><br/>
-
-<!-- ═══════════════════ 📜 SUMMONING SCROLL (CONNECT) ═══════════════════ -->
-<img src="./connect.svg" alt="Summoning Scroll — Let's Connect" width="100%"/>
+<!-- ═══════════════════ 📡 SECURE TRANSMISSION FREQUENCIES ═══════════════════ -->
+<img src="./hacker-comms.svg" alt="Secure Transmission Frequencies" width="100%"/>
 
 <br/>
 
-<!-- Social Badges in Naruto Palette -->
+<!-- Cyberpunk Terminal Badges -->
 <a href="https://divyanshu-srivastava-flax.vercel.app" target="_blank">
-  <img src="https://img.shields.io/badge/PORTFOLIO-00E5FF?style=for-the-badge&logo=vercel&logoColor=0B0D13" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/LIVE_NODE-00E5FF?style=for-the-badge&logo=vercel&logoColor=04070D" alt="Portfolio"/>
 </a>
 &nbsp;
 <a href="https://github.com/divyanshusrivastava2k3" target="_blank">
-  <img src="https://img.shields.io/badge/GITHUB-FF7700?style=for-the-badge&logo=github&logoColor=0B0D13" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GITHUB_TERMINAL-00FF66?style=for-the-badge&logo=github&logoColor=04070D" alt="GitHub"/>
 </a>
 &nbsp;
 <a href="https://www.linkedin.com" target="_blank">
-  <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LINKEDIN_UPLINK-0077B5?style=for-the-badge&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn"/>
 </a>
 &nbsp;
 <a href="mailto:divyanshu@example.com">
-  <img src="https://img.shields.io/badge/EMAIL_SCROLL-E2383F?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email"/>
+  <img src="https://img.shields.io/badge/ENCRYPTED_COMMS-FF0055?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email"/>
 </a>
 
 <br/><br/>
 
-<!-- Visitor Counter -->
-<img src="https://komarev.com/ghpvc/?username=divyanshusrivastava2k3&color=ff7700&style=for-the-badge&label=SHINOBI+VISITORS" alt="Profile views"/>
+<!-- Access Log Counter -->
+<img src="https://komarev.com/ghpvc/?username=divyanshusrivastava2k3&color=00ff66&style=for-the-badge&label=ROOT_ACCESS_LOGS" alt="Profile views"/>
 
 <br/><br/>
 
-<img src="./chibi-walk.gif" alt="Chibi Naruto" width="90"/>
-
-<br/>
-
-**"I never go back on my word, and I never give up on complex code. That's my Ninja Way!"** 🍥  
-### *Dattebayo! (だってばよ!)*
+```bash
+// [SYSTEM_OVERRIDE]: "I build hardened software architectures and break complex problems with clean code."
+// [STATUS]: ROOT ACCESS GRANTED | STEALTH MODE: ACTIVE
+```
 
 </div>

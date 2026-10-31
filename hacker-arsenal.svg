@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 245" width="100%" height="245">
+  
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04060a"/>
+      <stop offset="50%" stop-color="#080c14"/>
+      <stop offset="100%" stop-color="#05080f"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b111e" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#070b14" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="neonGreenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff66"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+    <linearGradient id="crimsonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0055"/>
+      <stop offset="100%" stop-color="#ff3366"/>
+    </linearGradient>
+    
+    <!-- Neon Glow Filters -->
+    <filter id="glowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowRed" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Scanline Pattern -->
+    <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#000000" stroke-width="1.2" opacity="0.35"/>
+    </pattern>
+    
+    <!-- Matrix Grid Pattern -->
+    <pattern id="cyberGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#00ff66" stroke-width="0.5" opacity="0.08"/>
+    </pattern>
+
+    <style>
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes radarSweep {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes pulseTerminal {
+        0%, 100% { filter: drop-shadow(0 0 6px rgba(0, 255, 102, 0.4)); }
+        50% { filter: drop-shadow(0 0 14px rgba(0, 255, 102, 0.8)); }
+      }
+      @keyframes laserMove {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(110px); }
+        100% { transform: translateY(0); }
+      }
+      .font-mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, 'Courier New', monospace; }
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .cursor { animation: blink 1s infinite; }
+      .radar-sweep { transform-origin: 105px 185px; animation: radarSweep 6s linear infinite; }
+      .laser-line { animation: laserMove 3.5s ease-in-out infinite; }
+      .hover-card { transition: all 0.3s ease; }
+      .hover-card:hover { filter: drop-shadow(0 0 10px rgba(0, 255, 102, 0.3)); }
+    </style>
+  </defs>
+
+
+  <rect x="2" y="2" width="896" height="241" rx="8" fill="url(#termBg)" stroke="#00ff66" stroke-width="1.2" opacity="0.95"/>
+  <rect x="2" y="2" width="896" height="241" rx="8" fill="url(#cyberGrid)"/>
+  <rect x="2" y="2" width="896" height="241" rx="8" fill="url(#scanlines)" pointer-events="none"/>
+
+  <!-- Header -->
+  <g transform="translate(25, 26)">
+    <text x="0" y="0" fill="#00ff66" class="font-mono" font-size="12" font-weight="700">[SYSTEM_ARSENAL]</text>
+    <text x="160" y="0" fill="#ffffff" class="font-mono" font-size="15" font-weight="800">// OPERATIONAL EXPLOITS, TOOLS &amp; PROTOCOLS</text>
+    <line x1="0" y1="12" x2="850" y2="12" stroke="#1e293b" stroke-width="1"/>
+  </g>
+
+  
+    <g transform="translate(25, 58)">
+      <text x="0" y="15" fill="#00ff66" class="font-mono" font-size="12" font-weight="700">[01 // CORE_LANGUAGES]</text>
+      <g transform="translate(230, 0)">
+        
+          <g transform="translate(0, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#00ff66" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">Python</text>
+          </g>
+          <g transform="translate(102, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#00ff66" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">TypeScript</text>
+          </g>
+          <g transform="translate(204, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#00ff66" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">JavaScript</text>
+          </g>
+          <g transform="translate(306, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#00ff66" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">SQL</text>
+          </g>
+          <g transform="translate(408, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#00ff66" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">HTML5 / CSS3</text>
+          </g>
+      </g>
+    </g>
+    <g transform="translate(25, 102)">
+      <text x="0" y="15" fill="#00e5ff" class="font-mono" font-size="12" font-weight="700">[02 // NEURAL_&_AI_MODELS]</text>
+      <g transform="translate(230, 0)">
+        
+          <g transform="translate(0, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#00e5ff" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">RoBERTa</text>
+          </g>
+          <g transform="translate(102, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#00e5ff" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">Transformers</text>
+          </g>
+          <g transform="translate(204, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#00e5ff" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">PyTorch</text>
+          </g>
+          <g transform="translate(306, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#00e5ff" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">Scikit-Learn</text>
+          </g>
+          <g transform="translate(408, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#00e5ff" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">TF-IDF</text>
+          </g>
+      </g>
+    </g>
+    <g transform="translate(25, 146)">
+      <text x="0" y="15" fill="#3b82f6" class="font-mono" font-size="12" font-weight="700">[03 // RUNTIMES_&_FRAMEWORKS]</text>
+      <g transform="translate(230, 0)">
+        
+          <g transform="translate(0, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#3b82f6" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">Flask</text>
+          </g>
+          <g transform="translate(102, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#3b82f6" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">React</text>
+          </g>
+          <g transform="translate(204, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#3b82f6" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">Next.js</text>
+          </g>
+          <g transform="translate(306, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#3b82f6" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">Node.js</text>
+          </g>
+          <g transform="translate(408, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#3b82f6" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">WebSockets</text>
+          </g>
+      </g>
+    </g>
+    <g transform="translate(25, 190)">
+      <text x="0" y="15" fill="#ff0055" class="font-mono" font-size="12" font-weight="700">[04 // SECURITY_&_VAULT_OPS]</text>
+      <g transform="translate(230, 0)">
+        
+          <g transform="translate(0, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#ff0055" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">PyJWT</text>
+          </g>
+          <g transform="translate(102, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#ff0055" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">Bcrypt</text>
+          </g>
+          <g transform="translate(204, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#ff0055" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">PostgreSQL</text>
+          </g>
+          <g transform="translate(306, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#ff0055" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">MongoDB</text>
+          </g>
+          <g transform="translate(408, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#ff0055" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">Docker</text>
+          </g>
+          <g transform="translate(510, 0)">
+            <rect x="0" y="0" width="95" height="24" rx="3" fill="#080e1a" stroke="#ff0055" stroke-width="0.8" opacity="0.9"/>
+            <text x="47" y="16" fill="#e2e8f0" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">Git</text>
+          </g>
+      </g>
+    </g>
+</svg>
