@@ -1,209 +1,114 @@
-<div align="center">
+# 💀 DIVYANSHU SRIVASTAVA // BLACK-HAT ROOT MAINFRAME
 
-<!-- ═══════════════════ 💀 BLACK HAT MAINFRAME HERO ═══════════════════ -->
-<img src="./hacker-hero.svg" alt="Divyanshu Srivastava — Black Hat Cyber &amp; AI Architect" width="100%"/>
+![Black Hat Hacker Battlestation](./hacker-banner.png)
 
-<br/><br/>
-
-<!-- ═══════════════════ 📂 CLASSIFIED DOSSIER ═══════════════════ -->
-<img src="./hacker-dossier.svg" alt="Classified Dossier — Core Technical Vectors" width="100%"/>
-
-<br/><br/>
-
-<!-- ═══════════════════ ⚡ WEAPONIZED ARSENAL (TECH STACK) ═══════════════════ -->
-<img src="./hacker-arsenal.svg" alt="System Arsenal — Operational Exploits, Tools &amp; Protocols" width="100%"/>
-
-<br/><br/>
-
-<!-- ═══════════════════ 🪪 OPERATOR CLEARANCE BADGE ═══════════════════ -->
-<img src="./hacker-badge.svg" alt="Black-Hat Operator Clearance Badge" width="100%"/>
-
-<br/><br/>
-
-</div>
+![Hacker Terminal Prompt](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2000&pause=1000&color=00FF66&background=00000000&center=false&vCenter=false&multiline=true&repeat=true&width=800&height=65&lines=%24+whoami%3A+Divyanshu+Srivastava+%5Buid%3D0(root)+gid%3D0(root)%5D;%24+capabilities%3A+Full-Stack+Architect+%2F%2F+AI+%26+Neural+Systems;%24+security_level%3A+OMEGA_BLACK+%5BZero-Trust+Hardened%5D)
 
 ---
 
-### 🛰️ Verified Payload Deployments // Active Repositories
+### 🖥️ Mainframe Diagnostics // Neofetch Readout
 
-<table>
-  <thead>
-    <tr>
-      <th align="left">🎯 Target / Repository</th>
-      <th align="left">🔍 Intelligence &amp; Technical Capabilities</th>
-      <th align="center">⚡ Technology Stack</th>
-      <th align="center">🔗 Direct Uplink</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <a href="https://github.com/divyanshusrivastava2k3/resume-matcher">
-          <b>🤖 resume-matcher</b>
-        </a>
-      </td>
-      <td>
-        <b>AI Candidate-Job Alignment &amp; Skill Distance Engine:</b> Leverages high-dimensional TF-IDF vectorization, Cosine Similarity algorithms, and automated skill-gap evaluation to rank candidate fitness against job descriptions in milliseconds.
-      </td>
-      <td align="center">
-        <code>Python</code> <code>Flask</code> <code>Scikit-learn</code> <code>NLP</code>
-      </td>
-      <td align="center">
-        <a href="https://github.com/divyanshusrivastava2k3/resume-matcher"><b>[Repository]</b></a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://github.com/divyanshusrivastava2k3/sentiment-analyzer">
-          <b>🧠 sentiment-analyzer</b>
-        </a>
-      </td>
-      <td>
-        <b>Neural Emotion &amp; Sentiment Classification Pipeline:</b> Production deep-learning inference driven by Hugging Face Transformers (RoBERTa), backed by MongoDB persistent query storage and interactive Chart.js analytics.
-      </td>
-      <td align="center">
-        <code>RoBERTa</code> <code>Transformers</code> <code>MongoDB</code> <code>Chart.js</code>
-      </td>
-      <td align="center">
-        <a href="https://github.com/divyanshusrivastava2k3/sentiment-analyzer"><b>[Repository]</b></a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://github.com/divyanshusrivastava2k3/secure-auth-system">
-          <b>🛡️ secure-auth-system</b>
-        </a>
-      </td>
-      <td>
-        <b>Zero-Trust Identity &amp; Cryptographic Vault:</b> Hardened security pipeline utilizing PyJWT signed token handshakes, salt-hashed Bcrypt credentials, session integrity guards, and secure PostgreSQL/SQLite integration.
-      </td>
-      <td align="center">
-        <code>Python</code> <code>PyJWT</code> <code>Bcrypt</code> <code>PostgreSQL</code>
-      </td>
-      <td align="center">
-        <a href="https://github.com/divyanshusrivastava2k3/secure-auth-system"><b>[Repository]</b></a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://github.com/divyanshusrivastava2k3/reelnova">
-          <b>⚡ reelnova</b>
-        </a>
-      </td>
-      <td>
-        <b>High-Throughput Media Intercept Platform:</b> Modern web architecture designed for rapid extraction and parsing of digital video feeds with high responsiveness and low overhead.
-      </td>
-      <td align="center">
-        <code>TypeScript</code> <code>Next.js</code> <code>Web APIs</code>
-      </td>
-      <td align="center">
-        <a href="https://www.reelnova.in/"><b>[Live Intercept]</b></a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://github.com/divyanshusrivastava2k3/ChatD">
-          <b>💬 ChatD</b>
-        </a>
-      </td>
-      <td>
-        <b>Encrypted Realtime Telepathic Socket:</b> Ultra low-latency bidirectional messaging channel with instant packet broadcast, distributed client state synchronization, and sleek dark UI.
-      </td>
-      <td align="center">
-        <code>JavaScript</code> <code>WebSockets</code> <code>Node.js</code>
-      </td>
-      <td align="center">
-        <a href="https://github.com/divyanshusrivastava2k3/ChatD"><b>[Repository]</b></a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://github.com/divyanshusrivastava2k3/PORT_folio">
-          <b>🌐 PORT_folio</b>
-        </a>
-      </td>
-      <td>
-        <b>Mainframe Developer Showcase:</b> Production glassmorphism terminal highlighting live web engineering projects, technical competencies, and secure comms links.
-      </td>
-      <td align="center">
-        <code>HTML5</code> <code>CSS3</code> <code>Vercel</code>
-      </td>
-      <td align="center">
-        <a href="https://divyanshu-srivastava-flax.vercel.app"><b>[Live Node]</b></a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<br/>
-
-<div align="center">
-  <a href="https://github.com/divyanshusrivastava2k3?tab=repositories">
-    <b>⚡ [ACCESS_ALL_REPOSITORIES] Inspect Complete Source Code Tree →</b>
-  </a>
-</div>
-
-<br/><br/>
+```bash
+[root@blackhat-node ~]# neofetch --ascii_distro kali
+       .......             OS: Kali GNU/Linux Rolling x86_64
+      .xKMMMMKk.           Host: Neural Core Workstation
+    .dMMMMMMMMMMk.         Kernel: 6.12.0-offensive-sec
+   .WMMMMMMMMMMMMW.        Uptime: 24/7 Deployment Pipeline
+   xMMMMMMMMMMMMMMx        Shell: zsh 5.9 (x86_64-pc-linux-gnu)
+   MMMMMMMMMMMMMMMM        Terminal: /dev/pts/0 [AES-256-GCM]
+   WMMMMMMMMMMMMMMW        CPU: AMD EPYC 128-Core High-Compute
+   .WMMMMMMMMMMMMW.        Memory: 32768MiB / 65536MiB
+    .kMMMMMMMMMMk.         Primary Vector: Full-Stack Web & Deep NLP
+      .xWMMMMWd.           Operator: Divyanshu Srivastava
+                           Clearance: ROOT PRIVILEGES GRANTED
+```
 
 ---
 
-<div align="center">
+### ⚡ Operational Arsenal // Weaponized Tech Stack
 
-<!-- ═══════════════════ 📊 LIVE TERMINAL TELEMETRY ═══════════════════ -->
-### 📊 Mainframe Telemetry &amp; Commit Activity
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=divyanshusrivastava2k3&show_icons=true&bg_color=04070d&title_color=00ff66&text_color=e2e8f0&icon_color=00e5ff&border_color=00ff66&hide_border=false" alt="Divyanshu GitHub Stats" width="48%"/>
-  <img src="https://streak-stats.demolab.com?user=divyanshusrivastava2k3&background=04070d&ring=00ff66&fire=ff0055&currStreakLabel=00e5ff&border=00ff66&sideLabels=e2e8f0&dates=94a3b8" alt="GitHub Streak" width="48%"/>
-</p>
+---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=divyanshusrivastava2k3&layout=compact&bg_color=04070d&title_color=00ff66&text_color=e2e8f0&border_color=00ff66" alt="Top Languages" width="60%"/>
-</p>
+### 🛰️ Live Reconnaissance // Active Deployed Payloads
 
-<br/>
+![Cyber Terminal Loop](./cyber-hacker.gif)
 
-<!-- ═══════════════════ 🌃 3D RECONSTRUCTION GRID ═══════════════════ -->
-### 🌃 Commit Reconstruction Grid // Daily Sync
+#### 1. 🤖 [resume-matcher](https://github.com/divyanshusrivastava2k3/resume-matcher)
+* **Vector:** AI Candidate-Job Alignment & Skill Extraction Engine
+* **Protocol:** High-dimensional TF-IDF Vectorization, Cosine Distance Metrics, Skill-Gap Parsing.
+* **Stack:** `Python` `Flask` `Scikit-Learn` `NLP`
+* **Direct Access:** [github.com/divyanshusrivastava2k3/resume-matcher](https://github.com/divyanshusrivastava2k3/resume-matcher)
 
-*Automated neural telemetry log generated every 24 hours.*
+#### 2. 🧠 [sentiment-analyzer](https://github.com/divyanshusrivastava2k3/sentiment-analyzer)
+* **Vector:** Neural Emotion & Sentiment Classifier Pipeline
+* **Protocol:** RoBERTa Transformer deep-learning inference, MongoDB persistent analytics, Chart.js telemetry.
+* **Stack:** `RoBERTa` `Transformers` `MongoDB` `Chart.js`
+* **Direct Access:** [github.com/divyanshusrivastava2k3/sentiment-analyzer](https://github.com/divyanshusrivastava2k3/sentiment-analyzer)
 
-<img src="./profile-3d-contrib/profile-night-view.svg" alt="3D Mainframe Commit Grid" width="100%"/>
+#### 3. 🛡️ [secure-auth-system](https://github.com/divyanshusrivastava2k3/secure-auth-system)
+* **Vector:** Zero-Trust Cryptographic Identity Fortress
+* **Protocol:** PyJWT signed token handshakes, salt-hashed Bcrypt credentials, session integrity guards, SQL injection mitigation.
+* **Stack:** `Python` `PyJWT` `Bcrypt` `PostgreSQL`
+* **Direct Access:** [github.com/divyanshusrivastava2k3/secure-auth-system](https://github.com/divyanshusrivastava2k3/secure-auth-system)
 
-<br/><br/>
+#### 4. ⚡ [reelnova](https://github.com/divyanshusrivastava2k3/reelnova)
+* **Vector:** High-Throughput Media Interceptor Platform
+* **Protocol:** Rapid video feed parsing and extraction with high-concurrency client pipelines.
+* **Stack:** `TypeScript` `Next.js` `Web APIs`
+* **Direct Access:** [www.reelnova.in](https://www.reelnova.in/)
 
-<!-- ═══════════════════ 📡 SECURE TRANSMISSION FREQUENCIES ═══════════════════ -->
-<img src="./hacker-comms.svg" alt="Secure Transmission Frequencies" width="100%"/>
+#### 5. 💬 [ChatD](https://github.com/divyanshusrivastava2k3/ChatD)
+* **Vector:** Encrypted Realtime Telepathic Socket
+* **Protocol:** Low-latency bidirectional WebSocket messaging, multi-client packet synchronization, dark terminal UI.
+* **Stack:** `JavaScript` `WebSockets` `Node.js`
+* **Direct Access:** [github.com/divyanshusrivastava2k3/ChatD](https://github.com/divyanshusrivastava2k3/ChatD)
 
-<br/>
+#### 6. 🌐 [PORT_folio](https://github.com/divyanshusrivastava2k3/PORT_folio)
+* **Vector:** Production Cyber Developer Mainframe
+* **Protocol:** Interactive glassmorphism terminal highlighting live full-stack projects, skills, and secure channels.
+* **Stack:** `HTML5` `CSS3` `Vercel`
+* **Direct Access:** [divyanshu-srivastava-flax.vercel.app](https://divyanshu-srivastava-flax.vercel.app)
 
-<!-- Cyberpunk Terminal Badges -->
-<a href="https://divyanshu-srivastava-flax.vercel.app" target="_blank">
-  <img src="https://img.shields.io/badge/LIVE_NODE-00E5FF?style=for-the-badge&logo=vercel&logoColor=04070D" alt="Portfolio"/>
-</a>
-&nbsp;
-<a href="https://github.com/divyanshusrivastava2k3" target="_blank">
-  <img src="https://img.shields.io/badge/GITHUB_TERMINAL-00FF66?style=for-the-badge&logo=github&logoColor=04070D" alt="GitHub"/>
-</a>
-&nbsp;
-<a href="https://www.linkedin.com" target="_blank">
-  <img src="https://img.shields.io/badge/LINKEDIN_UPLINK-0077B5?style=for-the-badge&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn"/>
-</a>
-&nbsp;
-<a href="mailto:divyanshu@example.com">
-  <img src="https://img.shields.io/badge/ENCRYPTED_COMMS-FF0055?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email"/>
-</a>
+---
 
-<br/><br/>
+### 📊 Real-Time Network Telemetry & Commit Stats
 
-<!-- Access Log Counter -->
-<img src="https://komarev.com/ghpvc/?username=divyanshusrivastava2k3&color=00ff66&style=for-the-badge&label=ROOT_ACCESS_LOGS" alt="Profile views"/>
+![Terminal Typing](./terminal-typing.gif)
 
-<br/><br/>
+![Divyanshu GitHub Stats](https://github-readme-stats.vercel.app/api?username=divyanshusrivastava2k3&show_icons=true&theme=vision-friendly-dark&hide_border=true&bg_color=05080f&text_color=00ff66&title_color=00ff66&icon_color=00e5ff)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=divyanshusrivastava2k3&theme=vision-friendly-dark&hide_border=true&background=05080f&ring=00ff66&fire=ff0055&currStreakLabel=00e5ff&dates=94a3b8)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=divyanshusrivastava2k3&layout=compact&theme=vision-friendly-dark&hide_border=true&bg_color=05080f&text_color=00ff66&title_color=00ff66)
+
+---
+
+### 📡 Encrypted Uplink Frequencies // Connect
+
+[![Portfolio](https://img.shields.io/badge/MAINFRAME-00E5FF?style=for-the-badge&logo=vercel&logoColor=05080F)](https://divyanshu-srivastava-flax.vercel.app)
+[![GitHub](https://img.shields.io/badge/GITHUB_TERMINAL-00FF66?style=for-the-badge&logo=github&logoColor=05080F)](https://github.com/divyanshusrivastava2k3)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com)
+[![Email](https://img.shields.io/badge/SECURE_DISPATCH-FF0055?style=for-the-badge&logo=gmail&logoColor=white)](mailto:divyanshu@example.com)
+
+![Terminal Access Logs](https://komarev.com/ghpvc/?username=divyanshusrivastava2k3&color=00ff66&style=for-the-badge&label=ROOT_ACCESS_LOGS)
 
 ```bash
 // [SYSTEM_OVERRIDE]: "I build hardened software architectures and break complex problems with clean code."
 // [STATUS]: ROOT ACCESS GRANTED | STEALTH MODE: ACTIVE
 ```
-
-</div>
